@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  padding: 0px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  padding-top: 1rem;
+}
+
+.Container {
+  padding: 0;
 }
 
 .App-logo {
@@ -36,4 +47,47 @@
   100% {
     transform: translateY(0px)
   }
+}
+
+.Menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background-color: #ffffff33 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.Input {
+  margin-left: 8px;
+  flex: 1;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.button {
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.MenuButton {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.Drawer {
+  width: 250px;
+  /* flex-shrink: 0, */
+}
+
+.DrawerPaper {
+  width: 250px;
+}
+
+.Task {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 5px 0px;
+  background-color: #ffffff33 !important;
+  /* color: rgba(255, 255, 255, 0.87) !important; */
 }
